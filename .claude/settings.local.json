@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\AlgorithmsAndDataStructures\" -Recurse | Where-Object { $_.FullName -match \"order\" })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\AlgorithmsAndDataStructures\\\\src\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\AlgorithmsAndDataStructures\\\\src\\\\main\\\\java\\\\com\\\\bautista\\\\order_flow_service\\\\order\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\" -Directory | ForEach-Object { $_.Name })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\main\\\\java\\\\com\\\\bautista\\\\order_flow_service\\\\order\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\main\\\\java\\\\com\\\\bautista\\\\order_flow_service\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\main\\\\resources\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\test\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\main\\\\java\\\\com\\\\bautista\\\\order_flow_service\\\\inventory\" -Recurse -Force | ForEach-Object { $_.FullName }; Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\main\\\\java\\\\com\\\\bautista\\\\order_flow_service\\\\payment\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\luisb\\\\git\\\\order-flow-service\\\\src\\\\main\\\\java\\\\com\\\\bautista\\\\order_flow_service\\\\order\\\\infrastructure\\\\web\" | ForEach-Object { $_.Name })"
+    ]
+  }
+}
